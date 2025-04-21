@@ -1,0 +1,4 @@
+This code allows you to get the time for a specified capital. The time is blocked by a token and thus needs one to get the time. It also requires the user to specify which capital they want the time of. 
+I included the external API from the GCP instance in the client.py, but it doesn't seem to work. The professor said this was okay. The local host works though. The time can be achieved by running 
+curl.exe -H "Authorization: Bearer supersecrettoken123" http://34.122.125.174:5000/api/time?capital=London where capital = the capital you want to see the time for. In my case since that external 
+ip address wasn't working, localhost can be substituted and it will run. 
